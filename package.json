@@ -1,0 +1,24 @@
+{
+	"name": "finals",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"prettier": "prettier --write src/**/*.js",
+		"sass": "node-sass styles/ -o css/",
+		"mincss": "css-minify -d css/",
+		"babel": "babel src/**/*.js -d transpiled/"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@babel/cli": "^7.7.7",
+		"@babel/core": "^7.7.7",
+		"@babel/preset-env": "^7.7.7",
+		"css-minify": "^1.0.1",
+		"minify": "^5.0.0",
+		"node-sass": "^4.13.0",
+		"prettier": "^1.19.1"
+	}
+}
